@@ -1,0 +1,11 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "outDir": "build", //build라는 디렉토리에 컴파일 된다.
+        "target": "ES6",    //자바스크립트 타겟 버전
+        "lib": ["ES6"],   //라이브러리를(API 타입) 이해하기위한 설정 어느환경에서 실행할건가요?
+        "strict": true,
+        "esModuleInterop": true,
+        "module": "CommonJS",
+    }
+}
